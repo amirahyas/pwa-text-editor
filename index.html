@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regex Tutorial</title>
+</head>
+<body>
+
+  <!-- Title and Introductory Paragraph -->
+  <h1>Regex Tutorial</h1>
+  <p>Welcome to the Regex Tutorial. This tutorial aims to explain the basics of regular expressions and how to use them effectively.</p>
+
+  <!-- Summary -->
+  <section>
+    <h2>Summary</h2>
+    <p>This tutorial focuses on a regular expression commonly used for validating email addresses. Regular expressions are powerful tools for pattern matching, and understanding how to create and use them is crucial for web development and data validation.</p>
+  </section>
+
+  <!-- Table of Contents -->
+  <section>
+    <h2>Table of Contents</h2>
+    <ul>
+      <li><a href="#section1">Introduction</a></li>
+      <li><a href="#section2">Component 1 - Username</a></li>
+      <li><a href="#section3">Component 2 - @ Symbol</a></li>
+      <li><a href="#section4">Component 3 - Domain</a></li>
+      <li><a href="#section5">Conclusion</a></li>
+    </ul>
+  </section>
+
+  <!-- Section 1 - Introduction -->
+  <section id="section1">
+    <h2>Introduction</h2>
+    <p>Before diving into the components of the email validation regular expression, it's essential to understand the need for such patterns. In web development, validating user input, especially email addresses, is a common task. This tutorial will guide you through creating a regex for this purpose.</p>
+  </section>
+
+  <!-- Section 2 - Component 1 - Username -->
+  <section id="section2">
+    <h2>Component 1 - Username</h2>
+    <p>The username is the first part of an email address. It allows for alphanumeric characters (both uppercase and lowercase) and underscores. The regular expression for the username component is <code>[a-zA-Z0-9_]+</code>. This means one or more characters that are either letters (both cases), digits, or underscores.</p>
+  </section>
+
+  <!-- Section 3 - Component 2 - @ Symbol -->
+  <section id="section3">
+    <h2>Component 2 - @ Symbol</h2>
+    <p>The @ symbol is a mandatory separator between the username and the domain in an email address. In the regular expression, simply including the @ symbol ensures its presence. The regular expression snippet is <code>@</code>.</p>
+  </section>
+
+  <!-- Section 4 - Component 3 - Domain -->
+  <section id="section4">
+    <h2>Component 3 - Domain</h2>
+    <p>The domain is the second part of an email address, following the @ symbol. It allows for alphanumeric characters (both uppercase and lowercase) and hyphens. The regular expression for the domain component is <code>[a-zA-Z0-9-]+</code>. This means one or more characters that are either letters (both cases), digits, or hyphens.</p>
+  </section>
+
+  <!-- Section 5 - Conclusion -->
+  <section id="section5">
+    <h2>Conclusion</h2>
+    <p>Congratulations! You've successfully learned the components of a basic email validation regular expression. Regular expressions are powerful tools in your programming arsenal, and understanding them will greatly enhance your ability to handle and validate user input. For more details or to explore further, check out the author's <a href="https://github.com/amirahyas/regex-tutorial">GitHub profile</a>.</p>
+  </section>
+
+</body>
+</html>
